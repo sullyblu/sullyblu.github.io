@@ -1,0 +1,247 @@
+/* CSS Document */
+
+* { margin: 0; padding: 0;}
+
+html { height: 100%;} 
+
+body { background: black;}
+
+/* Turn off borders on image links */
+	img {border:0; }
+
+
+ /*** Wrapper ***/
+
+#wrapper { margin: 0 auto; width: 100%; min-height:100%; padding: 0px; background:#3e4a58 url(../images/body-back.jpg) top center repeat;}
+
+
+
+/*** Header Wrapper ***/
+
+#headerwrapper { margin: 0 auto; width: 100%; padding: 0px; background:#3e4a58 url(../images/header-back.jpg) top center repeat-x;}
+
+ 
+/*** Header ***/
+
+#header {margin: 0 auto; width: 960px; height: 382px; background:#3e4a58 url(../images/banner.jpg) top center no-repeat; }
+ 
+
+/*** Menu ***/
+
+
+#menu {margin: 0 auto; width: 960px; height: 55px; }	
+
+
+
+
+
+ /*** Content Wrapper ***/
+
+#contentwrapper { overflow: hidden; margin: 0 auto; width: 960px;  padding: 0px; background: white;}
+
+
+
+/*** Sidebar ***/
+
+
+#sidebar { width: 260px; float: left; padding: 5px; background: white }	
+
+
+
+#sidebar h1 {
+	font-family: "Freestyle Script", Verdana, Arial, sans-serif;
+	font-size: 24px;
+	color: #2f5b95;
+	text-align:left;
+	}
+
+
+
+ 
+/*** Content ***/
+
+#content { width: 600px; float: right; padding: 20px; background: white;}
+
+
+
+#content h1 {
+	font-family: "Freestyle Script", Verdana, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color: #2f5b95;
+	text-align:left;
+	}
+
+
+
+
+#content h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	color: #6f95c6;
+	text-align:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: normal;
+	}
+
+
+
+
+
+
+#content p { margin:0px auto 0px auto; padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.75em;	
+	color: #999999;
+	text-align:left;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+
+#content ul { 
+	margin-left:30px; 
+	list-style-type: square; 
+	font-family: Arial, "Helvetica", sans-serif; 
+	font-size: 14px; 
+	line-height: 2em; color: #f8e4ed;
+	font-weight: normal;
+	margin-bottom: 20px;
+	color: #f8e4ed;
+}
+
+
+
+	
+		
+
+#content a:link, a:visited, a:active {
+	color: #2f5b95;
+	font-weight: normal;
+	text-decoration:underline;
+}
+
+	
+#content a:hover {
+	color: #0d1828;
+	font-weight: normal;
+	text-decoration:underline;
+}
+
+
+
+
+
+/*** Footer ***/
+
+#footer { 
+	clear: both; 
+	width: 960px; 
+	background:#3e4a58 url(../images/footer.jpg) bottom center;     
+	 text-align: center;
+     padding:0px 0 0 0;
+     margin: 0 auto;
+     height: 120px;
+     }
+ 
+
+
+/*** Classes ***/
+
+.center {
+	font-family: Arial, "Helvetica", sans-serif;
+	color: #fff;
+	text-align:center;
+}
+
+.left {
+	color: #fff;
+	text-align:left;
+}
+
+.right {
+	text-align:right;
+}
+
+.justify {
+	text-align:justify;
+}	
+
+
+.headingleft {
+	font-family: Arial, "Helvetica", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #afdbdb;
+	text-align: left;
+	}
+	
+
+.headingright {
+	font-family: Arial, "Helvetica", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #afdbdb;
+	text-align: right;
+}
+
+.piccenter 
+   {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
+
+.picfloatright {
+	float: right;
+	margin: 0px 6px 10px 10px;
+} 
+
+div.picfloatright img {
+	border: 1px solid #666;
+	}
+	
+.picborder {
+	border: 1px solid #af4e5f;
+	}
+
+.clear {
+	clear: both;
+}
+
+.caption {
+	text-align: justify;
+	padding: 0px 30px 10px 40px;
+	font:0.8em Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.7em;
+	color:#808080;
+}
+
+.captioncenter {
+	text-align: center;
+	font:0.8em Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.7em;
+	color:#808080;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 10px;
+	font-family: Verdana, Helvetica, sans-serif; 
+	color: #fff;
+	font-weight: normal;
+}
+
+img {
+	image-orientation: from-image;
+	-webkit-transform:rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
